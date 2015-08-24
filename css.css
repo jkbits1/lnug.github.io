@@ -11,7 +11,6 @@ html, body {
 }
 .lnug-header {
   background-color: rgb(70, 72, 61);
-  background-image: url(assets/logo/new-transparent.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -165,8 +164,24 @@ html body .lnug-section p {
 .lnug-footer-text li {
   display: inline-block;
   padding: 0 15px;
+  margin: 30px !important;
 }
 
 .lnug-footer-text a {
   color: rgba(255,255,255,0.4);
+}
+
+
+.main_logo {
+  height: 220px;
+}
+.lnug-hero {
+  background: rgb(70, 72, 61);
+}
+
+.lnug-header.img-responsive {
+  margin: 30px !important;
+
+
+  text-align: center;
 }
