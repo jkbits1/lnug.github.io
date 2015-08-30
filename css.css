@@ -1,98 +1,88 @@
+
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Noticia+Text);
+
+
 html, body {
   overflow-x: hidden;
   background-color: white;
+  background: #303030;
 }
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin:0;
+    font-size: 2.5em;
+    color: #1D1D1D;
+    border-bottom: 1px dashed #eee;
+    font-family: 'Noticia Text', serif;
+
+}
+
 
 .container {
   padding: 0;
   margin: 0;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
-}
-.lnug-header {
-  background-color: rgb(70, 72, 61);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 220px;
-}
-.lnug-headline {
-  background-color: rgb(70, 72, 61);
-  color: yellow;
-  font-size: 10px;
-}
-.lnug-headline h1 {
-  margin: 0 !important;
-  padding: 10px 0 !important;
-  font-size: 18px !important;
-  color: rgb(196, 200, 175);
+
 }
 
+
+.lnug-ticket {
+    margin:0 0 4em 0 ;
+}
 .lnug-menu {
-  background-color: rgb(83, 85, 74);
+  background-color: #1d1d1d;
   text-align: center;
 }
 
 .lnug-menu li {
   display: inline-block;
   width: 100%;
-  max-width: 200px;
-  padding: 1em 3em;
+  max-width: 180px;
+  padding: 1em ;
+  font-family:"arvo";
+  /*font-family: 'Noticia Text', serif;*/
+
   margin: .5em;
 }
 
 .lnug-menu li a {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #fff;
 }
 
-
-#lnug-tkt {
-  color:rgba(190,213,46,0.8);
-  font-size: 3em;
-  text-align: center;
-
+.img-circle {
+    border-radius: 50%;
 }
 
-.lnug-nextevent {
-  background-color: rgb(245, 245, 245);
-  height: 80px;
-  font-size: 24px;
-  padding-top: 20px;
+
+
+.lnug-body {
+    padding:4em 3em;
+    margin: 0 0;
+    background: #fff;
+    color: #303030;
 }
 
-.lnug-sectiondesc {
-  color: rgb(196, 200, 175);
-  font-size: 36px;
-  height: 80px;
-  width: 100%;
-}
 
-html body .lnug-section p {
-  padding-left: 0 !important;
-  margin-left: 0 !important;
+ul.lnug-content {
+    margin: 0;
 }
-
-.talk-label,.sponsor-label {
-  padding: 15px 0;
-  border-bottom: 1px rgb(240, 240, 240) solid;
-}
-.twitter-label {
-  padding: 15px 0;
-  border-bottom: 1px rgb(240, 240, 240) solid;
-}
-
-.twitter-widget {
-  padding-top: 10px;
-  margin: 0 40px;
-}
-
-.lnug-content {
-
-}
-
 .lnug-content h1 p, .lnug-content h1 {
   margin-left: 20px;
+}
+
+ul.lnug-content.lnug-archive {
+    text-align: left;
 }
 
 .lnug-archive dl {
@@ -107,112 +97,74 @@ html body .lnug-section p {
   font-size: 16px;
 }
 
-.lnug-singlespeaker {
-  margin-top: 25px;
-  display: table;
-}
 
-.lnug-speakercard {
-  display: table-cell;
-  float: none;
-}
-
-.lnug-speakercard div {
-  margin: 10px 0;
-  height: 100%;
-}
-
-.lnug-speakername {
-  font-size: 32px;
-  color: black;
-  font-weight: 700;
-}
-
-.lnug-talktitle {
-  font-size: 28px;
-  color: black;
-  font-weight: 400;
-}
-
-.lnug-talkdesc {
-  font-size: 16px;
-  color: black;
-  font-weight: 300;
-}
-
-.lnug-twitterhandle {
-  font-size: 26px;
-  color: rgb(206, 208, 194);
-  font-weight: 300;
-}
-
-.lnug-footer {
-  background: rgb(83, 85, 74);
-  height: 80px;
-  color: rgba(255,255,255,0.4);
-}
 
 .lnug-footer-text {
-  margin-top: 10px;
+    padding: 1em;
+    line-height: 3em;
   text-align: center;
 }
 .lnug-footer-text li {
   display: inline-block;
   padding: 0 15px;
-  margin: 30px !important;
 }
 
 .lnug-footer-text a {
-  color: rgba(255,255,255,0.4);
+  color: #eee;
 }
 
 
 .main_logo {
   height: 200px;
 }
-.lnug-hero {
-  background: rgb(70, 72, 61);
-}
 
 .lnug-header.img-responsive {
-  margin: 30px !important;
+  margin: 3em;
   text-align: center;
 }
 
 .logo-detail {
   position: relative;
-  top: -3em;
-  left: -6.3em;
+  top: -55px;
   color: #fff;
 }
 
 
 
-@import url(http://fonts.googleapis.com/css?family=Arvo);
-
 .box{
   margin:0px auto;
-  margin-top:80px;
-  background:#FFF9EE url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
   color:#333;
   text-transform:uppercase;
   padding:8px;
-  width:100%;
+  width:90%;
   font-weight:bold;
-  text-shadow:0px 1px 0px #fff;
+
   font-family:"arvo";
+  /*font-family: 'Noticia Text', serif;*/
   font-size: 11px;
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
     .box {
         width:50%;
     }
+    .info .wp{
+      float: left;
+      border-bottom: 0 !important;
+    }
+    .info .wp.address {
+        text-align: right;
+        float: right;
+    }
+
 }
 .inner{
-  border: 2px dashed rgba(51, 51, 51, 0.5);
+  border: 2px dashed #303030;
   min-height:100px;
+  background:#eee url(http://subtlepatterns.com/patterns/lightpaperfibers.png);
+
+  transform: rotate(-2deg);
   padding:8px;
 
 }
@@ -224,14 +176,23 @@ html body .lnug-section p {
   text-align:center;
 }
 .info{
-  width:100%;
-  margin-top:5px;
+  width:auto;
+  margin:2em;
 }
 .info .wp{
-  float: left;
   padding: 5px;
   text-align: center;
+  border-bottom: 1px solid #ddd;
+  margin: 1em 0;
 }
+.info .wp.desc{
+    text-transform: none;
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 100%;
+
+}
+
 .info .wp h2{
   margin: 8px;
 }
@@ -255,57 +216,86 @@ html body .lnug-section p {
   visibility: hidden;
 }
 .total h2{
-  padding-left:115px;
+  padding-left:15px;
   margin:10px 0px;
   font-size: 15px;
 }
 .total p{float:right;margin:0px;margin-right: 15px;}
 
 a.buy{
-  color:#fff;
-  text-align:center;
-  font-size:25px;
-  text-decoration:none;
-  display:block;
-  width:200px;
-  margin:0px auto;
-  margin-top:50px;
-  padding:5px;
-  background:rgba(0,0,0,0.5);
+    margin:10px auto 0;
+
+    font-size:25px;
+        padding: .3em 1em;
+}
+
+.cta {
+    color:#1b1b1b;
+    text-align:center;
+    text-decoration:none;
+    display:block;
+    background:#80bd01;
+    border-radius: 5px;
+
+}
+
+ul.lnug-content {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .lnug-speaker {
-    /*background: red;*/
-    width: 100%;
+    width: auto;
+    text-align: left;
+    padding: 0;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    list-style: none;
+
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
     .lnug-speaker {
-        /*background: red;*/
-        width: 50%;
-        margin: 0 20%;
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+        margin: 1em 1em;
+        max-width: 350px;
     }
 
+    .lnug-speaker .title {
+        height: 3em;
+    }
 }
 
 .lnug-speaker .detail {
     /*background: #eee;*/
-    margin-left: 120px;
-    font-size: 2em;
-    min-height: 100px;
+}
+
+.lnug-speaker .title {
+    margin:.4em 0;
+}
+.lnug-speaker .name {
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+    position: relative;
+    color: #8A8585;
+    top: -30px;
+    padding: 0;
 }
 .lnug-speaker .desc {
     /*background: green;*/
-    font-size: 1.2em;
-    margin: 1em;
-    padding: 1em 0 ;
+    
+}
+.lnug-speaker  p {
+    margin: 0;
+    padding: 0;
 }
 .lnug-speaker img {
-    width: 100px;
-    position: relative;
-    top: 110px;
-    left: 10px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
 }
 
 ul.sponsors {
@@ -317,8 +307,30 @@ ul.sponsors {
 ul.sponsors li {
     display: inline-block;
     margin: 2em;
+    width: 25%;
+    min-width: 210px;
 }
 
-ul.sponsors li{
-    width: 25%;
+
+.lnug-mailing-list {
+    width: auto;
+
+    margin-left: 2em;
+    padding: 1em;
+    color: white;
+}
+.lnug-mailing-list h1 {
+color: white;
+        margin: 0;
+        border-bottom: 1px dashed #75BD01;
+}
+
+.lnug-mailing-list input {
+    display: inline;
+    padding: .6em;
+    margin: .6em 0;
+    font-family:"arvo";
+    /*font-family: 'Noticia Text', serif;*/
+
+    font-size: 1.1em;
 }

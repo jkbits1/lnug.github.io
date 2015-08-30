@@ -16,6 +16,8 @@ var nextEvent = require('../lib/next-event');
 
 var indexTemplate = fs.readFileSync('./templates/index.html', 'utf8');
 var speakerTemplate = fs.readFileSync('./templates/speaker.html', 'utf8');
+var ticketTemplate = fs.readFileSync('./templates/ticket.html', 'utf8');
+var mailListTemplate = fs.readFileSync('./templates/mailing-list.html', 'utf8');
 
 /**
  * Turns speaker object into selector object to be used by sizlate.
@@ -44,7 +46,9 @@ var speakers = data.map(function(speaker) {
 
 var out = sizlate.doRender(indexTemplate, {
   '.lnug-nextmeetup': nextEvent(),
-  '.lnug-content': speakers.join(' ')
+  '.lnug-content': speakers.join(' '),
+  '.lnug-ticket': ticketTemplate,
+  '.lnug-mailing-list': mailListTemplate,
 });
 
 fs.writeFileSync('./index.html', out, 'utf8');

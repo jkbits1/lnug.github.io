@@ -20,57 +20,56 @@
   <meta name="twitter:url" content="http://www.lnug.org">
   <meta name="google-site-verification" content="gnZ_Oz6_k7Gv93jmtpCeY6Rjz6E_rjh_1n5dlYgMcJw">
   <script src="//code.jquery.com/jquery.min.js"></script>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="/css.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 lnug-hero">
-      <div class="lnug-header img-responsive">
+    <div class="lnug-header img-responsive">
         <img src="/public/logo.png" class="main_logo">
         <p class="logo-detail">London Node User Group</p>
-
-      </div>
-      <div class="row">
-
-        <nav class="lnug-menu col-lg-12">
-          <li><a href="/">This month</a></li>
-          <li><a href="/archive">Archive</a></li>
-          <li><a href="https://gitter.im/lnug/discuss" target="_blank">Discuss</a></li>
-
-        </nav>
-
-      </div>
-
     </div>
-  </div>
 
-<!-- The London Node User group is a friendly monthly meetup for people who use Node.js for fun or profit. -->
-  <div class="box">
-		<div class="inner">
-		<h1>London Node User Group - <span class="lnug-nextmeetup">August 26th 2015</span></h1>
-		<div class="info clearfix">
-            <div class="wp">Starts<h2>7:30</h2></div>
-			<div class="wp">Venue<h2>Stack Exchange</h2></div>
-		</div>
-		<div class="total clearfix">
-			<h2>Total : <p>£ 0 (it's free)</p></h2>
-		</div>
-<div class="total clearfix ticket">
-    <a id="lnug-tkt" href="https://ti.to/lnug/august-2015" target="_blank">Get your ticket</a>
+    <nav class="lnug-menu">
+        <li><a href="/archive">Archive</a></li>
+        <li><a href="https://gitter.im/lnug/discuss" target="_blank">Discuss</a></li>
+        <li><a href="https://github.com/lnug/speakers">Speak</a></li>
+    </nav>
 
-		</div>
+    <div class="lnug-body">
+        <div class="lnug-ticket"><div class="box">
+    <div class="inner">
+        <h1>Next meetup - <span class="lnug-nextmeetup">August 26th 2015</span></h1>
+        <div class="info clearfix">
+            <div class="wp desc">A friendly monthly meetup for people using Node.js for fun or profit.</div>
+
+            <div class="wp">Start<h2>7:00</h2>pm</div>
+            <div class="wp address">
+                <a href="https://www.google.co.uk/maps/place/London+EC1V+9BP/@51.5251346,-0.0907117,17z/data=!3m1!4b1!4m2!3m1!1s0x48761ca885072c25:0x72e05218b2259c62?hl=en" target="_blank"><strong>Stack Exchange</strong><br>
+                 168-172 Bentima House<br>
+                  Old Street<br>
+                  London EC1V 9BP</a>
+            </div>
+        </div>
+        <div class="total clearfix">
+            <h2>Total : <p>£ 0 (it's free)</p></h2>
+        </div>
+
+        <div class="total clearfix ticket">
+            <a id="lnug-tkt" class="buy cta" href="https://ti.to/lnug/august-2015" target="_blank">Get your ticket</a>
+        </div>
     </div>
-	</div>
+</div>
+</div>
 
-    <ul class="lnug-content"><div class="row lnug-speaker">
-    <img class="img-circle" alt="Speaker image" src="https://avatars.githubusercontent.com/u/822369?v=3">
+        <h1>Talks</h1>
+        <p>
+            This months talks will include:
+        </p>
+        <ul class="lnug-content"><li class="row lnug-speaker">
+    <h2 class="title">Rethinking backend with webtasks</h2>
     <div class="detail">
-        <div class="name">Tomasz Janczuk</div>
-        <div class="title">Rethinking backend with webtasks</div>
+        <img class="img-circle" alt="Speaker image" src="https://avatars.githubusercontent.com/u/822369?v=3">
+        <h3 class="name">Tomasz Janczuk</h3>
 
         <div class="handle">
           <a></a>
@@ -78,13 +77,13 @@
     </div>
     <div class="desc"><p>You are writing a mobile or HTML5 web application that needs just a little bit of a backend. Maybe you want to access MongoDB, send an SMS, or an e-mail. Do you really need to host your own Node.js service to run this small snippet of backend logic?&#13;&#10;&#13;&#10;In this talk I will take a hard look at the role of the backend in modern applications. I will introduce the concept of a <a href="https://webtask.io">webtask</a> - a lightweight representation of backend logic that can safely be embedded in a client application. I will show how you can use modern container technologies based on CoreOS and Docker to build a generic, multi-tenant runtime for securely executing webtasks directly from a mobile or HTML5 application. You don&rsquo;t need a backend to run backend code.&#13;&#10;&#13;&#10;This talk is based on lessons learned when building the Node.js sandboxing technology for internal use in our core operations at Auth0.&#13;&#10;&#13;&#10;Find out more:&#13;&#10;<a href="http://tomasz.janczuk.org/2015/04/rethinking-backend-with-webtasks.html">Webtask concepts</a>&#13;&#10;<a href="https://github.com/auth0/wt-cli">Webtask CLI</a>&#13;&#10;<a href="https://webtask.io">Webtask playground</a>&#13;&#10;<a href="https://medium.com/aws-activate-startup-blog/sandboxing-code-in-the-era-of-containers-294edb3a674">Webtask technology</a>&#13;&#10;</p>
 </div>
-  </div>
+  
 
- <div class="row lnug-speaker">
-    <img class="img-circle" alt="Speaker image" src="https://avatars.githubusercontent.com/u/243117?v=3">
+</li> <li class="row lnug-speaker">
+    <h2 class="title">WebRTC Reborn</h2>
     <div class="detail">
-        <div class="name">Dan Jenkins</div>
-        <div class="title">WebRTC Reborn</div>
+        <img class="img-circle" alt="Speaker image" src="https://avatars.githubusercontent.com/u/243117?v=3">
+        <h3 class="name">Dan Jenkins</h3>
 
         <div class="handle">
           <a></a>
@@ -92,13 +91,13 @@
     </div>
     <div class="desc"><p>WebRTC has had a real tough 3 or 4 years, and so have those working with it. Only a few short years ago, the development world were excited about WebRTC and proclaiming how awesome it was. &#13;&#10;&#13;&#10;You might have played with the technology a couple of years ago, only to find the extra infrastructure requirements were painful to implement and poorly documented. This probably left a bitter taste in your mouth, especially when things went wrong.&#13;&#10;&#13;&#10;Those in the industry have been working hard to sweeten the deal again - efforts have been made to bring WebRTC into the mainstream and as a result the technology is experiencing a rebirth. Thanks to those who have remained dedicated to improving the situation for those around them, WebRTC is finally starting to fulfil the original expectations that were had of it. Both the technology and the support networks have been built up to make experimenting with it again a pleasure, not a pain.&#13;&#10;&#13;&#10;WebRTC has grown up; in this talk you will learn how far along the tech has come, its current capabilities, the amazing things that people are starting to do with it, and how simple getting started with the new toolsets available.&#13;&#10;</p>
 </div>
-  </div>
+  
 
- <div class="row lnug-speaker">
-    <img class="img-circle" alt="Speaker image" src="https://avatars.githubusercontent.com/u/1526883?v=3">
+</li> <li class="row lnug-speaker">
+    <h2 class="title">TypeScript will finally bring peace to your troubled soul</h2>
     <div class="detail">
-        <div class="name">Tim Perry</div>
-        <div class="title">TypeScript will finally bring peace to your troubled soul</div>
+        <img class="img-circle" alt="Speaker image" src="https://avatars.githubusercontent.com/u/1526883?v=3">
+        <h3 class="name">Tim Perry</h3>
 
         <div class="handle">
           <a></a>
@@ -106,69 +105,73 @@
     </div>
     <div class="desc"><p>You&#39;ve heard of TypeScript, but you&#39;re not sure if it&#39;s a good idea, and you&#39;ve never really seen it in action. TypeScript is powerful though, rapidly gaining momentum, and has a lot more to offer than just JS + classes. Let&#39;s take a proper look.&#13;&#10;&#13;&#10;In this talk, we&#39;ll dig a bit deeper and play around with some of the more interesting features TypeScript gives you. We&#39;ll walk through the extras that TypeScript provides and how they&#39;ll solve your every woe, learn a bit about where the types come in and why you care, and see how exactly you might put it into action on your next Node project.</p>
 </div>
-  </div>
+  
 
-</ul>
-
-
-    <ul class="sponsors">
-      <li>
-        <a href="http://www.stackoverflow.com" target="_blank" title="Stackoverflow homepage, proud sponsor of LNUG">
-          <img src="./public/stackoverflow.jpg" alt="Stackoverflow">
-        </a>
-      </li>
-      <li>
-        <a href="http://www.nexttick.io" target="_blank" title="Nexttick homepage, proud sponsor of LNUG">
-          <img src="./public/nexttick.jpg" alt="Nexttick">
-        </a>
-      </li>
-      <li>
-        <a href="https://www.braintreepayments.com/" target="_blank" title="BrainTree Payments homepage, proud sponsor of LNUG">
-          <img src="./public/braintree.png" alt="BrainTree Payments">
-        </a>
-      </li>
-      <li>
-        <a href="http://www.opentable.com/" target="_blank" title="Open Table homepage, proud sponsor of LNUG">
-          <img src="./public/opentable.jpg" alt="Open Table">
-        </a>
-      </li>
-      <li>
-        <a href="http://www.yld.io" target="_blank" title="YLD homepage, proud sponsor of LNUG">
-          <img src="./public/yld.jpg" alt="YLD">
-        </a>
-      </li>
-      <li>
-        <a href="http://www.artificial.io" target="_blank" title="Artificial homepage, proud sponsor of LNUG">
-          <img src="./public/artificial-labs.jpg" alt="Artificial Labs">
-        </a>
-      </li>
-    </ul>
-<!--
-    <div class="col-xs-12 col-md-4 col-lg-4 lnug-sidebar text-center">
-
-
-      <div class="twitter-label lnug-sectiondesc">Tweets</div>
-      <div class="twitter-widget">
-        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/LNUGorg" data-widget-id="568413083740422144">@LNUGORG</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-      </div> -->
+</li></ul>
     </div>
 
 
-  <div class="row">
-    <div class="col-xs-12 lnug-footer">
-      <ul class="lnug-footer-text">
+    <div class="lnug-mailing-list">
+<form id="mc-embedded-subscribe-form" action="//enhanceconf.us10.list-manage.com/subscribe/post?u=51dfdc2ed16b49dcad396dd73&amp;id=e8e09541e1" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate="" class="validate">
+    <h1>Mailing list</h1>
+    <p>Sign up to be notified when tickets are available:
+    </p>
+    <div id="mc_embed_signup_scroll">
+        <input id="mce-EMAIL" type="email" value="" name="EMAIL" placeholder="email address" required class="email">
+        <input id="mc-embedded-subscribe" type="submit" value="Subscribe" name="subscribe" class="button cta"><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;">
+            <input type="text" name="b_51dfdc2ed16b49dcad396dd73_e8e09541e1" tabindex="-1" value="">
+        </div>
+    </div>
+</form>
+</div>
+
+
+    <div class="lnug-body">
+        <h1>Sponsors</h1>
+        <p>
+            London Node User group is made possible by all of these wonderful companies:
+        </p>
+        <ul class="sponsors">
+          <li>
+            <a href="http://www.stackoverflow.com" target="_blank" title="Stackoverflow homepage, proud sponsor of LNUG">
+              <img src="/public/stackoverflow.jpg" alt="Stackoverflow">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.nexttick.io" target="_blank" title="Nexttick homepage, proud sponsor of LNUG">
+              <img src="/public/nexttick.jpg" alt="Nexttick">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.braintreepayments.com/" target="_blank" title="BrainTree Payments homepage, proud sponsor of LNUG">
+              <img src="/public/braintree.png" alt="BrainTree Payments">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.opentable.com/" target="_blank" title="Open Table homepage, proud sponsor of LNUG">
+              <img src="/public/opentable.jpg" alt="Open Table">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.yld.io" target="_blank" title="YLD homepage, proud sponsor of LNUG">
+              <img src="/public/yld.jpg" alt="YLD">
+            </a>
+          </li>
+          <li>
+            <a href="http://www.artificial.io" target="_blank" title="Artificial homepage, proud sponsor of LNUG">
+              <img src="/public/artificial-labs.jpg" alt="Artificial Labs">
+            </a>
+          </li>
+        </ul>
+    </div>
+
+    <ul class="lnug-footer-text">
         <li><a href="code-of-conduct" title="code-of-conduct">Code of Conduct</a></li>
         <li><a href="mailto:contact@lnug.org?Subject=LNUG+site+question">Contacts</a></li>
         <li><a href="http://nexttick.us8.list-manage.com/subscribe?u=9ebd291b0179eceff6533b0da&amp;id=f7e81cdb7a" target="_blank" title="The monthly newsletter">Newsletter</a></li>
         <li><a href="//github.com/lnug/speak" target="_blank" title="speakers application">Apply to Speak</a></li>
-      </ul>
-      <ul class="lnug-footer-text">
-        <li>LNUG 2015 - THE nodejs meetup in London</li>
-      </ul>
-    </div>
-  </div>
-
+    </ul>
 
 </body>
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css">
